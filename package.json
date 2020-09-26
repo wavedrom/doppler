@@ -1,0 +1,40 @@
+{
+  "name": "doppler",
+  "version": "1.0.0",
+  "description": "flex waves",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "eslint lib",
+    "build": "browserify ./lib/main.js > test/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drom/doppler.git"
+  },
+  "author": "alex.drom@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drom/doppler/issues"
+  },
+  "homepage": "https://github.com/drom/doppler#readme",
+  "dependencies": {
+    "json5": "^2.1.3",
+    "lodash.range": "^3.2.0",
+    "onml": "^1.2.0"
+  },
+  "devDependencies": {
+    "@drom/eslint-config": "^0.10.0",
+    "browserify": "^16.5.2",
+    "eslint": "^7.9.0",
+    "fs-extra": "^9.0.1",
+    "http-server": "^0.12.3",
+    "vcd-stream": "^0.11.0",
+    "yargs": "^16.0.3"
+  },
+  "eslintConfig": {
+    "extends": "@drom/eslint-config/eslint4/node8"
+  }
+}

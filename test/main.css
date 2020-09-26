@@ -1,0 +1,51 @@
+body {
+  margin: 0px;
+  border: 0px;
+  font-family: 'Roboto Mono', monospace;
+  background: #000;
+}
+.bit {
+  stroke: #0fb;
+  fill: none;
+  stroke-width: 1px;
+  stroke-linecap: square;
+}
+.b0 { stroke: #0fb; }
+.b1 { stroke: #0f1; }
+.bx { stroke: #f01; }
+.bz { stroke: #04f; }
+.txt {
+  font-size: 12pt;
+  fill: #fff;
+  stroke: none;
+}
+.sidebar {
+  /* background-color: #000e !important; */
+}
+.wd-container {
+  background-color: #1c1c1c;
+}
+.timeline {}
+.timeline .txt {
+  fill: #fff;
+  text-anchor: middle;
+  stroke: none;
+  font-size: 11px;
+}
+
+.wd-container::-webkit-scrollbar-track
+{
+    border: 1px solid black;
+    background-color: #222;
+}
+
+.wd-container::-webkit-scrollbar
+{
+    /* width: 10px; */
+    background-color: #222;
+}
+
+.wd-container::-webkit-scrollbar-thumb
+{
+    background-color: #555;
+}
