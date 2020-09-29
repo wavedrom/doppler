@@ -15,7 +15,7 @@ body {
 .bx { stroke: #f01; }
 .bz { stroke: #04f; }
 .txt {
-  font-size: 12pt;
+  font-size: 14px;
   fill: #fff;
   stroke: none;
 }
