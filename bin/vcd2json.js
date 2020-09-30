@@ -24,10 +24,10 @@ const argv = yargs
 
 const numberOrString = val => {
   if (val < (2n ** 52n)) {
-    return Number(val)
+    return Number(val);
   }
   return '0x' + val.toString(16);
-}
+};
 
 const main = async () => {
   const chango = {};
@@ -54,6 +54,7 @@ const main = async () => {
     }
   });
   inst.on('finish', () => {
+    res.t0 = inst.info.t0;
     res.time = Number(inst.getTime());
     console.log(JSON.stringify(res));
   });
