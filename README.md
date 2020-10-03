@@ -1,3 +1,3 @@
-## Doppler project
+### WaveForm Doppler component
 
-WaveForm viewer
+JS/HTML/CSS component. Renders HDL WaveForms with interactive scroll, pan & zoom effects.
