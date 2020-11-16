@@ -7,13 +7,15 @@ const vcd2obj = require('../lib/vcd2obj.js');
 
 const argv = yargs
   .option('input', {describe: 'path to the input VCD file', alias: 'i'})
+  .option('d', {describe: 'dump only defines', alias: 'defs', type: 'count'})
   .demandOption(['input'])
   .help()
   .argv;
 
 vcd2obj(
   fs.createReadStream(argv.input),
-  res => console.log(JSON.stringify(res))
+  res => console.log(JSON.stringify(res)),
+  argv
 );
 
 /* eslint no-console: 0 */

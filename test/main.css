@@ -14,6 +14,7 @@ body {
 .b1 { stroke: #0f1; }
 .bx { stroke: #f01; }
 .bz { stroke: #04f; }
+.spacer { stroke: #777; }
 .txt {
   font-size: 14px;
   fill: #fff;
@@ -21,6 +22,11 @@ body {
 }
 .sidebar {
   /* background-color: #000e !important; */
+}
+.cursor {
+  stroke: #fff;
+  stroke-width: 1px;
+  z-index: 10;
 }
 .wd-container {
   background-color: #1c1c1c;

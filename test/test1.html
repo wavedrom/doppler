@@ -8,22 +8,15 @@
     <script src="main.js"></script>
   </head>
 
-  <body onload="Doppler('view42')">
+  <body onload="Doppler('view42', 'test1.chango.json')">
     <div style="max-width:600px;margin:0 auto;">
       Some text before the waveform
       <div id="view42" style="max-height:400px">
-{"chango": {
-  "AA": {"kind": "bit", "wave": [[0,0],[1,1],[2,0],[3,1],[4,0],[5,1],[6,0],[7,1],[8,0],[9,1],[10,0],[11,1],[12,0],[13,1],[14,0]]},
-  "BB": {"kind": "bit", "wave": [[0,0],[1,0],[2,1],[3,1],[4,0],[5,2],[6,2],[7,0],[8,3],[9,3],[10,1],[11,2],[12,1],[13,3],[14,2],[15,3],[16,0]]}
-},
- "time": 16,
- "timescale": -12,
- "view": [
-  {"name":"clock", "ref":"AA"},
-  {"name":"foo",   "ref":"BB"},
-  {"name":"clock", "ref":"AA"}
- ]
-}
+{"view": [
+{"name":"clock", "ref":"AA"},
+{"name":"foo",   "ref":"BB"},
+{"name":"clock", "ref":"AA"}
+]}
       </div>
       Some more text after the waveform
     </div>
