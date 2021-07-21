@@ -28,7 +28,7 @@
 |-|-|
 | <kbd>Tab</kbd> | find next edge |
 | <kbd>Shift</kbd> + <kbd>Tab</kbd> | find previous edge |
-| <kbd>↑</kbd> and <kbd>↓</kbd> | scroll signal list +-100%  |
+| <kbd>PageUp</kbd> and <kbd>PageDown</kbd> | scroll signal list +-100%  |
 
 
 ### ToDo (Mouse actions)
