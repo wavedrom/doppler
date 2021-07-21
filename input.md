@@ -16,7 +16,7 @@
 
 | Action | Description |
 |-|-|
-| 🖱️-wheel | scroll signal list |
+| 🖱️↕️-wheel | scroll signal list |
 | <kbd>Shift</kbd> + 🖱️↕️-wheel  | scroll along the timeline |
 | <kbd>Ctrl</kbd> + 🖱️⬆️-wheel | time zoom in (see todo) |
 | <kbd>Ctrl</kbd> + 🖱️⬇️-wheel | time zoom out |
