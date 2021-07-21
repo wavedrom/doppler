@@ -4,13 +4,13 @@
 
 | Action | Description |
 |-|-|
-| <kbd>←</kbd> and <kbd>→</kbd> | scroll along the timeline |
+| <kbd>←</kbd> and <kbd>→</kbd> | scroll along the timeline ±10% |
 | <kbd>+</kbd> or <kbd>=</kbd> | time zoom in  |
 | <kbd>-</kbd> or <kbd>_</kbd> | time zoom out |
 | <kbd>f</kbd> or <kbd>F</kbd> | time zoom full  |
 | <kbd>Home</kbd> | scroll to the beginning of times |
 | <kbd>End</kbd> | scroll to the end of times |
-| <kbd>↑</kbd> and <kbd>↓</kbd> | scroll signal list +-10%  |
+| <kbd>↑</kbd> and <kbd>↓</kbd> | scroll signal list ±10%  |
 
 ### Mouse actions
 
@@ -28,7 +28,8 @@
 |-|-|
 | <kbd>Tab</kbd> | find next edge |
 | <kbd>Shift</kbd> + <kbd>Tab</kbd> | find previous edge |
-| <kbd>PageUp</kbd> and <kbd>PageDown</kbd> | scroll signal list +-100%  |
+| <kbd>PageUp</kbd> and <kbd>PageDown</kbd> | scroll signal list ±100%  |
+| <kbd>Shift</kbd> + <kbd>PageUp</kbd> and <kbd>PageDown</kbd> | scroll along the timeline ±100% |
 
 
 ### ToDo (Mouse actions)
