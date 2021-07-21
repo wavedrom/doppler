@@ -10,7 +10,7 @@
 | <kbd>f</kbd> or <kbd>F</kbd> | time zoom full  |
 | <kbd>Home</kbd> | scroll to the beginning of times |
 | <kbd>End</kbd> | scroll to the end of times |
-| <kbd>↑</kbd> and <kbd>↓</kbd> | scroll signal list |
+| <kbd>↑</kbd> and <kbd>↓</kbd> | scroll signal list +-10%  |
 
 ### Mouse actions
 
@@ -28,6 +28,8 @@
 |-|-|
 | <kbd>Tab</kbd> | find next edge |
 | <kbd>Shift</kbd> + <kbd>Tab</kbd> | find previous edge |
+| <kbd>↑</kbd> and <kbd>↓</kbd> | scroll signal list +-100%  |
+
 
 ### ToDo (Mouse actions)
 
