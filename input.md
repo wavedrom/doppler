@@ -38,3 +38,8 @@
 |-|-|
 | 🖱️-click | drop a cursor? |
 | 🖱️-click / Drag | Select a timescale to zoom in? |
+
+### ToDo (Touch actions)
+
+https://developer.mozilla.org/en-US/docs/Web/API/Touch_events
+
