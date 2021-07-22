@@ -11,7 +11,7 @@
 | <kbd>Home</kbd> | scroll to the beginning of times |
 | <kbd>End</kbd> | scroll to the end of times |
 | <kbd>↑</kbd> and <kbd>↓</kbd> | scroll signal list ±10%  |
-| <kbd>PageUp</kbd> and <kbd>PageDown</kbd> | scroll signal list ±100%  |
+| <kbd>PageUp</kbd> and <kbd>PageDown</kbd> | scroll signal list ±75%  |
 
 ### Mouse actions
 
@@ -29,7 +29,7 @@
 |-|-|
 | <kbd>Tab</kbd> | find next edge |
 | <kbd>Shift</kbd> + <kbd>Tab</kbd> | find previous edge |
-| <kbd>Shift</kbd> + <kbd>PageUp</kbd> and <kbd>PageDown</kbd> | scroll along the timeline ±100% |
+| <kbd>Shift</kbd> + <kbd>PageUp</kbd> and <kbd>PageDown</kbd> | scroll along the timeline ±75% |
 
 
 ### ToDo (Mouse actions)
