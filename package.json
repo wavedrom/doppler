@@ -8,7 +8,10 @@
   },
   "scripts": {
     "test": "eslint lib",
-    "build": "browserify ./lib/main.js > test/main.js"
+    "build": "browserify ./lib/main.js > test/main.js",
+    "watch": "watchify ./lib/main.js -o test/main.js -v",
+    "build.wavehub": "browserify ./lib/wavehub.js | terser --compress -o wavehub/wavehub.js",
+    "watch.wavehub": "watchify ./lib/wavehub.js -o wavehub/wavehub.js -v"
   },
   "repository": {
     "type": "git",
@@ -21,19 +24,25 @@
   },
   "homepage": "https://github.com/drom/doppler#readme",
   "dependencies": {
-    "json5": "^2.1.3",
+    "json5": "^2.2.0",
     "lodash.get": "^4.4.2",
     "lodash.range": "^3.2.0",
     "onml": "^1.2.0"
   },
   "devDependencies": {
+    "@codemirror/state": "^0.18.7",
+    "@codemirror/text": "^0.18.1",
+    "@codemirror/view": "^0.18.19",
     "@drom/eslint-config": "^0.10.0",
-    "browserify": "^16.5.2",
-    "eslint": "^7.9.0",
-    "fs-extra": "^9.0.1",
+    "browserify": "^17.0.0",
+    "codemirror": "^5.62.2",
+    "eslint": "^7.19.0",
+    "fs-extra": "^9.1.0",
     "http-server": "^0.12.3",
-    "vcd-stream": "^0.14.0",
-    "yargs": "^16.0.3"
+    "terser": "^5.7.1",
+    "vcd-stream": "^0.14.1",
+    "watchify": "^4.0.0",
+    "yargs": "^16.2.0"
   },
   "eslintConfig": {
     "extends": "@drom/eslint-config/eslint4/node8",
