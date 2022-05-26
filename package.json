@@ -1,6 +1,6 @@
 {
   "name": "@wavedrom/doppler",
-  "version": "0.8.1",
+  "version": "0.9.0",
   "description": "flex waves",
   "main": "lib/index.js",
   "directories": {
