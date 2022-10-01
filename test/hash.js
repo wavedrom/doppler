@@ -24,7 +24,6 @@ const testo = {
 describe('hash', () => {
   it('collision', () => {
     Object.keys(testo).map(key => {
-      // console.log(key, hash(key));
       expect(hash(key)).to.eq(testo[key]);
     });
   });
