@@ -25,7 +25,8 @@
   "dependencies": {
     "codemirror": "^5.62.2",
     "lodash.get": "^4.4.2",
-    "onml": "^2.1.0"
+    "onml": "^2.1.0",
+    "w3c-keyname": "^2.2.6"
   },
   "devDependencies": {
     "@drom/eslint-config": "^0.10.0",
