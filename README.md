@@ -1,4 +1,7 @@
-[![Linux](https://github.com/wavedrom/doppler/actions/workflows/linux.yml/badge.svg)](https://github.com/wavedrom/doppler/actions/workflows/linux.yml)[![MacOS](https://github.com/wavedrom/doppler/actions/workflows/macos.yml/badge.svg)](https://github.com/wavedrom/doppler/actions/workflows/macos.yml)[![Windows](https://github.com/wavedrom/doppler/actions/workflows/windows.yml/badge.svg)](https://github.com/wavedrom/doppler/actions/workflows/windows.yml)
+[![NPM version](https://img.shields.io/npm/v/@wavedrom/doppler.svg)](https://www.npmjs.org/package/@wavedrom/doppler)
+[![Linux](https://github.com/wavedrom/doppler/actions/workflows/linux.yml/badge.svg)](https://github.com/wavedrom/doppler/actions/workflows/linux.yml)
+[![MacOS](https://github.com/wavedrom/doppler/actions/workflows/macos.yml/badge.svg)](https://github.com/wavedrom/doppler/actions/workflows/macos.yml)
+[![Windows](https://github.com/wavedrom/doppler/actions/workflows/windows.yml/badge.svg)](https://github.com/wavedrom/doppler/actions/workflows/windows.yml)
 
 ## WaveForm Doppler component
 
