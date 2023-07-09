@@ -23,19 +23,18 @@
   },
   "homepage": "https://github.com/drom/doppler#readme",
   "dependencies": {
-    "codemirror": "^5.62.2",
     "lodash.get": "^4.4.2",
     "onml": "^2.1.0",
-    "w3c-keyname": "^2.2.6"
+    "w3c-keyname": "^2.2.8"
   },
   "devDependencies": {
-    "@drom/eslint-config": "^0.10.0",
-    "chai": "^4.3.6",
-    "eslint": "^8.13.0",
-    "mocha": "^10.0.0"
+    "@drom/eslint-config": "^0.12.0",
+    "chai": "^4.3.7",
+    "eslint": "^8.44.0",
+    "mocha": "^10.2.0"
   },
   "eslintConfig": {
-    "extends": "@drom/eslint-config/eslint4/node8",
+    "extends": "@drom/eslint-config/eslint8/node12",
     "parserOptions": {
       "ecmaVersion": 2020
     }
